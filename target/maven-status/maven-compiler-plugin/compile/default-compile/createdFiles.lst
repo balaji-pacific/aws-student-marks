@@ -1,0 +1,3 @@
+org/sample/springboot/student/mark/StudentMarksApplication.class
+org/sample/springboot/student/mark/controller/StudentMarksController.class
+org/sample/springboot/student/mark/pojo/Student.class
