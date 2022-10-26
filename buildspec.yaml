@@ -7,7 +7,7 @@ phases:
       - mvn clean package
   post_build:
     commands:
-      - echo Build completed Successfully
+      - echo Build completed Successfully....
 artifacts:
   files:
     - target/aws-student-marks.jar
