@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo Started Building the application.....
+      - mvn clean package install
+  post_build:
+    commands:
+      - echo Build completed Successfully
+artifacts:
+  files:
+    - target/aws-student-marks.jar
+  discard-paths: yes
