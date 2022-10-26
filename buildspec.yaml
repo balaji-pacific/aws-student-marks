@@ -4,7 +4,7 @@ phases:
   build:
     commands:
       - echo Started Building the application.....
-      - mvn clean package install
+      - mvn clean package
   post_build:
     commands:
       - echo Build completed Successfully
