@@ -39,5 +39,10 @@ public class StudentMarksController {
 		}
 		return new Student("Data Not Available",0,0,0,0);
 	}
+	
+	@GetMapping("/")
+	public String defaultPath() {
+		return "Welcome to code pipeline";
+	}
 
 }
